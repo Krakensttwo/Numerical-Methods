@@ -1,6 +1,10 @@
 /*
-Compilation: g++ wdmn3.cpp -lm
+Task 3: Implement the secant method for finding roots in C++.
+
+Compilation: g++ newton.cpp -lm
 Example invocation: ./a.out sin -1.2 -1.0 0.001 0.001 100
+
+This command finds one of the roots of the sine function, starting from points -1.2 and -1.0, with a result accuracy of delta=0.001, epsilon=0.001, and a maximum of 100 iterations. The program works with real numbers.
 */
 #include <iostream>
 #include <string>

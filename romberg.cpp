@@ -1,7 +1,11 @@
 /*
-Compilation: g++ wdmn11.cpp
+Task 13: Implement Romberg's method for numerical integration in C++.
+
+Compilation: g++ romberg.cpp
 Przykładowe wywołanie programu:
 ./a.out sin -1.0 2.4 8
+
+This command will compute an array of successive approximations of the integral of sin(x) over the interval [-1, 2.4] using Romberg's method with 8 steps.
 */
 #include <iostream>
 #include <string>

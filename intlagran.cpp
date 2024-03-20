@@ -1,7 +1,14 @@
 /*
-Compilation: g++ wdmn8.cpp
+Task 8: Implement in C/C++ Lagrange interpolation.
+
+Compilation: g++ intlagran.cpp
 Example program invocation:
 ./a.out  -1.0 0.0 2.0 3.0 -7.2 2.0 -11.1 2.0
+
+This command means that we are looking for a polynomial of degree at most 3 for the following interpolation nodes:
+x: -1.0  0.0  2.0  3.0
+y: -7.2  2.0 -11.1 2.0
+The program works with real numbers and an even number of arguments.
 */
 #include <iostream>
 #include <string>

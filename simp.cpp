@@ -1,7 +1,11 @@
 /*
-Compilation: g++ wdmn11.cpp
+Task 12: Implement Simpson's method for numerical integration in C++.
+
+Compilation: g++ simp.cpp
 Example program invocation:
-./a.out sin -1.0 2.4  8
+./a.out sin -1.0 2.4 8
+
+This command will compute the integral of sin(x) over the interval [-1, 2.4] using Simpson's method with 8 subintervals.
 */
 #include <iostream>
 #include <string>

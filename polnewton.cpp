@@ -1,6 +1,13 @@
 /*
-Compilation: g++ wdmn4.cpp
+Task 4: Implement the Newton's method for finding roots of a polynomial in C++. The program should find complex roots for polynomials with complex coefficients.
+
+Compilation: g++ polnewton.cpp
 Example invocation: ./a.out  1.0  1.0  0.0  0.0  -4.0  2.0  1.0  -3.0  0.001 100
+
+This command means that we are computing the root for the polynomial 
+W(x) = (1+i)x^2 + (-4+2i), 
+starting from the point 1-3i.
+(delta=0.001 and max=100)
 */
 #include <iostream>
 #include <stdlib.h>

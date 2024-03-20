@@ -1,7 +1,11 @@
 /*
-Compilation: g++ wdmn11.cpp
+Task 11: Implement Richardson extrapolation in C++.
+
+Compilation: g++ richard.cpp
 Example program invocation:
 ./a.out sin 2.0 0.1 8
+
+This command will compute the derivative sin'(2.0) with a step size h=0.1 and perform Richardson extrapolation with 8 steps. The result will be a matrix of successive approximations.
 */
 #include <iostream>
 #include <string>

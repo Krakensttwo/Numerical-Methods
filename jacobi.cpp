@@ -1,7 +1,23 @@
 /*
-Compilation: g++ wdmn7.cpp
+Task 7: Implement in C++ a program that solves a system of equations using the Jacobi method. 
+
+Compilation: g++ jacobi.cpp
 Example invocation:
 ./a.out  2.0  -0.5 0.1 4.0 -7.0 -1.0 1.0 2.0 4.0 1.0 2.0 3.0 1.0 -3.0 2.0 0.001 100
+
+This command solves the system Ax=B, where:
+A = | 2.0  -0.5  0.1 |
+    | 4.0  -7.0 -1.0 |
+    | 1.0   2.0  4.0 |
+    
+B = | 1.0 |
+    | 2.0 |
+    | 3.0 |
+    
+X0 = | 1.0 |
+     |-3.0 |
+     | 2.0 |
+with a tolerance (delta) of 0.001 and a limit of 100 iterations. The program works with real numbers.
 */
 
 #include <iostream>

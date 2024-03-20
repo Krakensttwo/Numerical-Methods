@@ -1,6 +1,10 @@
 /*
-Compilation: g++ wdmn2.cpp -lm
+Task 2: Implement the bisection method for finding roots in C++.
+
+Compilation: g++ bisect.cpp -lm
 Example invocation: ./a.out sin -1.0 2.0 0.1 0.01 100
+
+This command calculates the approximate root, approximation error, the value of the function at the found root, and the number of algorithm steps for the sine function on the interval [-1.0, 2.0] with a precision of delta=0.1, epsilon=0.01, and a maximum of 100 iterations.
 */
 #include <iostream>
 #include <string>

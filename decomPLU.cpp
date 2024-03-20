@@ -1,7 +1,16 @@
 /*
-Compilation: g++ wdmn6.cpp
+Task 6: Implement in C++ the LU decomposition of matrix A into the form PA=LU. 
+
+Compilation: g++ decomPLU.cpp
 Example invocation:
 ./a.out  1.0  3.0 2.0 4.1 2.0 2.0 1.0 3.0 4.0 -1.0 2.0 -2.0 1.2 2.1 3.1 7.0
+
+This command means that we are looking for the decomposition for matrix A:
+1.0   3.0   2.0   4.1
+2.0   2.0   1.0   3.0
+4.0  -1.0   2.0  -2.0
+1.2   2.1   3.1   7.0
+(The program works for real numbers and square matrices)
 */
 
 #include <iostream>
